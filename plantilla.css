@@ -369,7 +369,7 @@
  	mso-hide: all;
  }
  /* RESPONSIVE STYLES Please do not delete and edit CSS styles below. If you don't need responsive layout, please delete this section. */
- @media only screen and (max-width: 600px) {
+ /*@media only screen and (max-width: 600px) {
  	p,
       ul li,
       ol li,
@@ -560,4 +560,26 @@
  		height: auto !important;
  	}
  }
+ */
  /* END RESPONSIVE STYLES */
+ @media only screen and (max-width: 600px) {
+ 	.es-mobile-hidden {
+ 		display: none !important;
+ 	}
+ 	.es-desk-hidden {
+ 		width: auto !important;
+ 		overflow: visible !important;
+ 		float: none !important;
+ 		max-height: inherit !important;
+ 		line-height: inherit !important;
+ 	}
+ 	tr.es-desk-hidden {
+ 		display: table-row !important;
+ 	}
+ 	table.es-desk-hidden {
+ 		display: table !important;
+ 	}
+ 	td.es-desk-menu-hidden {
+ 		display: table-cell !important;
+ 	}
+ }
